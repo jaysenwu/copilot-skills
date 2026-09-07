@@ -1,6 +1,6 @@
 # Sources and validation
 
-Package: planning-with-sheet 1.0.0 · Reviewed 2026-09-07
+Package: planning-with-sheet 1.0.1 · Reviewed 2026-09-07
 
 ## Primary sources
 
@@ -16,9 +16,13 @@ Package: planning-with-sheet 1.0.0 · Reviewed 2026-09-07
 
 ## Adaptation decisions
 
-This is a new Excel implementation inspired by the upstream persistence pattern.
-It is not an official Microsoft product or a verbatim port of upstream scripts.
-The upstream license notice is included in the skill folder for attribution.
+This is an independent Excel implementation inspired by and adapting the upstream
+persistence pattern. It is not an official Microsoft product, is not endorsed by
+the upstream author, and is not a verbatim port of upstream scripts. The upstream
+copyright and complete MIT license notice are included in the skill folder as
+`UPSTREAM-LICENSE.txt`. The copyright and MIT license for the Excel adaptation
+are included separately as `LICENSE.txt`; `NOTICE.md` explains the attribution
+scope and provides recommended wording for redistribution.
 
 | Original concept | Excel adaptation |
 | --- | --- |

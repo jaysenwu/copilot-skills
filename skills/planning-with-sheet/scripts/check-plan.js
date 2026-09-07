@@ -1,4 +1,7 @@
 /* Parameterless entry point. Reads workbook state; only refreshes derived check/display cells. */
+// Copyright (c) 2026 Jaysen Wu. Licensed under the MIT License.
+// Inspired by OthmanAdi/planning-with-files (MIT); see ../NOTICE.md.
+
 async function checkPlanningSheet() {
   return Excel.run(async (context) => {
     const sheets = context.workbook.worksheets;

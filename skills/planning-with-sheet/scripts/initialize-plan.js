@@ -1,4 +1,7 @@
 /* Copilot in Excel skill entry point. Call with no arguments. */
+// Copyright (c) 2026 Jaysen Wu. Licensed under the MIT License.
+// Inspired by OthmanAdi/planning-with-files (MIT); see ../NOTICE.md.
+
 async function initializePlanningSheet() {
   return Excel.run(async (context) => {
     const sheets = context.workbook.worksheets;

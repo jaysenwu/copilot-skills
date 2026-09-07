@@ -22,7 +22,7 @@ Key capabilities:
 - Use Office.js only; no Python, external services, or add-in deployment.
 
 Go to [`skills/planning-with-sheet`](skills/planning-with-sheet) for the source.
-Download [`planning-with-sheet-onedrive-v1.0.0.zip`](dist/planning-with-sheet-onedrive-v1.0.0.zip)
+Download [`planning-with-sheet-onedrive-v1.0.1.zip`](dist/planning-with-sheet-onedrive-v1.0.1.zip)
 for the OneDrive upload package.
 
 ## Install in Copilot for Excel
@@ -71,10 +71,13 @@ copilot-skills/
 ├── skills/
 │   └── planning-with-sheet/
 │       ├── SKILL.md
+│       ├── LICENSE.txt
+│       ├── NOTICE.md
 │       ├── scripts/
 │       └── references/
 ├── docs/
 ├── dist/
+├── NOTICE.md
 └── LICENSE
 ```
 
@@ -99,12 +102,28 @@ adaptation decisions, and test boundary.
 实际使用时，请在 Excel Copilot 的 **Edit 模式**调用技能。Plan 模式可以用来
 先生成计划，但写入 `_Plan`、更新状态和执行任务都需要 Edit 模式。
 
-## Acknowledgements
+## Copyright, attribution, and upstream credit / 版权与转载说明
 
-The persistence and recovery pattern was inspired by
-[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files).
-Its MIT license notice is retained in the skill source.
+The Excel adaptation and original implementation in this repository are
+Copyright © 2026 Jaysen Wu and are licensed under the MIT License.
 
-## License
+If you copy, modify, redistribute, or incorporate this project or a substantial
+portion of it, retain the copyright and permission notice in [LICENSE](LICENSE).
+That required notice identifies `planning-with-sheet`, Jaysen Wu, and the source
+repository URL. Please also keep [NOTICE.md](NOTICE.md) with the distribution.
 
-MIT. See [LICENSE](LICENSE).
+本仓库中的 Excel 适配方案及新增实现版权归 Jaysen Wu 所有，并按 MIT License
+开源。按照 MIT License，转载、复制、修改、再发布或整合本项目的实质性内容时，
+须保留 [LICENSE](LICENSE) 中的完整版权声明与许可文本；该版权声明已明确包含
+**Jaysen Wu、planning-with-sheet 及项目链接**。建议同时保留 [NOTICE.md](NOTICE.md)。
+
+This project was inspired by and adapts the persistent-planning pattern from
+[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files),
+Copyright © 2026 Ahmad Adi, also licensed under the MIT License. The upstream
+copyright and license are preserved in
+[`UPSTREAM-LICENSE.txt`](skills/planning-with-sheet/UPSTREAM-LICENSE.txt).
+This repository is an independent Excel-oriented adaptation; it is not endorsed
+by or affiliated with the upstream author or Microsoft.
+
+See [NOTICE.md](NOTICE.md) for the recommended attribution wording and the scope
+of each notice.
